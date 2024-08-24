@@ -37,7 +37,7 @@ class AnimalDataset(Dataset):
 
     def __getitem__(self, item):
         image = cv2.imread(self.image_paths[item])
-        if transform:
+        if self.transform:
             image = self.transform(image)
         label = self.labels[item]
         return image, label
