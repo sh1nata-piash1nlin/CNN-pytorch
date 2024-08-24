@@ -1,2 +1,2 @@
-# CNN-
+# CNN
 CNN for image classification 
