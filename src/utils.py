@@ -23,7 +23,7 @@ def get_args():
 
 def plot_confusion_matrix(writer, cm, class_names, epoch):
 
-    figure = plt.figure()
+    figure = plt.figure(figsize=(20, 20))
     #color map: https://matplotlib.org/stable/gallery/color/colormap_reference.html
     plt.imshow(cm, interpolation='nearest', cmap="plasma")
     plt.title("Confusion matrix")
