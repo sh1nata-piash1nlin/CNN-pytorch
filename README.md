@@ -5,6 +5,13 @@ CNN for image classification
 + The dataset is Animals-10 (from Kaggle), which you can find [here](https://www.kaggle.com/datasets/alessiocorrado99/animals10/data).
 + The Animals-10 dataset from Kaggle contains around 28,000 images across 10 animal classes: butterfly, cat, chicken, cow, dog, elephant, horse, sheep, spider, and squirrel. It's ideal for image classification tasks and is widely used in computer vision projects and educational settings. The images are in JPG format and vary in resolution.
 
-# SETTING: 
-+ For optimizer and learning rate, there are 1 setting that I use:
+# SETTING
+For optimizer and learning rate, there are 1 setting that I use:
 ++ SGD optimizer with different learning rates for each different epoch.
+
+# TRAIN
+# TEST
+
+# EXPERIMENTS: 
+
+
