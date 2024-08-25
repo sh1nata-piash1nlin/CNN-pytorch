@@ -68,7 +68,6 @@ def train(args):
         os.mkdir(args.trained_models)
     writer = SummaryWriter(args.tensorboard_path)
 
-    best_acc = 0
     total_iters = len(training_dataloader)
     for epoch in range(start_epoch, args.epochs):
         # Training Phase
