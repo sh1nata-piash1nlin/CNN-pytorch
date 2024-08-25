@@ -49,7 +49,7 @@ def train(args):
 
     criterion = nn.CrossEntropyLoss()
     optimizer = SGD(model.parameters(), lr=args.lr)
-    scheduler = MultiStepLR(optimizer, milestones=[10, 25, 40], gamma=0.1)
+    scheduler = MultiStepLR(optimizer, milestones=[30, 60, 90], gamma=0.1)
 
     if args.checkpoint_path and os.path.isfile(args.checkpoint_path):
         checkpoint = torch.load(args.checkpoint_path)
@@ -114,11 +114,12 @@ def train(args):
             "optimizer": optimizer.state_dict(),
             "epoch": epoch,
             "best_acc": best_acc,
+            "batch_size": args.batch_size,
         }
 
-        torch.save(model.state_dict(), os.path.join(args.trained_models, "last.pth"))
+        torch.save(checkpoint, os.path.join(args.trained_models, "last.pth"))
         if acc > best_acc:
-            torch.save(model.state_dict(), os.path.join(args.trained_models, "best.pth"))
+            torch.save(checkpoint, os.path.join(args.trained_models, "best.pth"))
             best_acc = acc
         scheduler.step()
 
