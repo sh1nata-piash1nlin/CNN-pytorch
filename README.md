@@ -10,8 +10,14 @@ For optimizer and learning rate, there are 1 setting that I use:
 ++ SGD optimizer with different learning rates for each different epoch.
 
 # TRAIN
+
 # TEST
 
-# EXPERIMENTS: 
+# EXPERIMENTS
+
+# DEPENDENCIES
++ Python 3.7 or above
++ Pytorch 2.1.2
++ Tensorboard 2.12.1
 
 
