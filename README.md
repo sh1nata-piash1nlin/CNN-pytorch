@@ -7,7 +7,7 @@ The Animals-10 dataset from Kaggle contains around 28,000 images across 10 anima
 
 # SETTING
 For optimizer and learning rate, there are 1 setting that I use: <br>
-++ SGD optimizer with different learning rates for each different epoch.
++ SGD optimizer with different learning rates for each different epoch.
 
 # TRAIN 
 If you want to train a model with default parameters, you could run: 
