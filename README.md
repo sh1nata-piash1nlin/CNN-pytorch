@@ -12,11 +12,13 @@ For optimizer and learning rate, there are 1 setting that I use:
 # TRAIN 
 If you want to train a model with default parameters, you could run: 
 > **python train.py** <br>
+
 If you want to train a model with your preference parameters, like the batch size, you could run: <br>
 > **python train.py -b 8**
 
 # EXPERIMENTS
-I run the model in a machine named <span style="background-color: yellow;">NVIDIA GeForce GTX 1650 Ti</span>. The validation (showed in a picture below) was trained in 5th epoch (over 100 epochs) due to the device limitation. Thus, the accuracy could be improved more. 
+I run the model in a machine named <span style="background-color: red;">NVIDIA GeForce GTX 1650 Ti</span>. The validation (showed in a picture below) was trained in 5th epoch (over 100 epochs) due to the device limitation. Thus, the accuracy could be improved more. 
+
 ![image](https://github.com/user-attachments/assets/674748b8-16b4-4ad7-8773-2291863a7127)
 
 # DEPENDENCIES
