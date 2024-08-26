@@ -21,7 +21,7 @@ I run the model in a machine named <span style="background-color: red;">NVIDIA G
 
 ![image](https://github.com/user-attachments/assets/674748b8-16b4-4ad7-8773-2291863a7127)
 
-Here is the visualization in confusion matrix. 
+Here is the visualization in confusion matrix after training 1st epoch: 
 
 ![image](https://github.com/user-attachments/assets/7c9c757f-879c-433f-a67d-9a928972d900)
 
