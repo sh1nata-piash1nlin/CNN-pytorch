@@ -107,7 +107,7 @@ def train(args):
         acc = accuracy_score(all_ground_truth, all_predictions)
         writer.add_scalar("Validation/Accuracy", acc, epoch)
         conf_matrix = confusion_matrix(all_ground_truth, all_predictions)
-        plot_confusion_matrix(writer, conf_matrix, [i for i in range(train_set.animalsList)], epoch)
+        plot_confusion_matrix(writer, conf_matrix, [i for i in range(len(train_set.animalsList))], epoch)
 
         checkpoint = {
             "model": model.state_dict(),
