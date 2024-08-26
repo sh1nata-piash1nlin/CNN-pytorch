@@ -25,8 +25,8 @@ def train(args):
         Resize((args.image_size, args.image_size)),
     ])
 
-    train_set = AnimalDataset(root=args.data_path, transform=transform)
-    valid_set = AnimalDataset(root=args.data_path2, transform=transform)
+    train_set = AnimalDataset(root=args.data_path, train=True, transform=transform)
+    valid_set = AnimalDataset(root=args.data_path2, train=False, transform=transform)
 
     training_params = {
         "batch_size": args.batch_size,
