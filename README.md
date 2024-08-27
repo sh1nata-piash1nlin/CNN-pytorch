@@ -1,5 +1,5 @@
 # CNN
-CNN for image classification 
+CNN for image classification (single object) 
 
 # DATASET 
 The dataset is Animals-10 (from Kaggle), which you can find [here](https://www.kaggle.com/datasets/alessiocorrado99/animals10/data). <br>
