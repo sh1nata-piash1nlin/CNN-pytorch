@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def get_args():
-    parse = argparse.ArgumentParser(description='Football Jerseys')
+    parse = argparse.ArgumentParser(description='Animal')
     parse.add_argument('-p', '--data_path', type=str, default='./data/animals/')
     parse.add_argument('-p2', '--data_path2', type=str, default='./data/animals/')
     parse.add_argument('-b', '--batch_size', type=int, default=32)
