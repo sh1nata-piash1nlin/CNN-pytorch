@@ -9,7 +9,7 @@ import argparse
 
 
 def get_args():
-    parse = argparse.ArgumentParser(description='Football Jerseys')
+    parse = argparse.ArgumentParser(description='Animal')
     parse.add_argument('-p', '--path', type=str, default='./data/animals/animals_train')
     parse.add_argument('-p2', '--test_path', type=str, default='image_testing/dog1.jpg' )
     parse.add_argument('-i', '--image_size', type=int, default=224)
