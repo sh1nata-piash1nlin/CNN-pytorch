@@ -16,6 +16,18 @@ If you want to train a model with default parameters, you could run:
 If you want to train a model with your preference parameters, like the batch size, you could run: <br>
 > **python train.py -b 8**
 
+# TEST 
+If you want to test a model with default parameters, you could run: 
+> **python test.py** <br>
+
+If you want to test a model  in images_testing file with your preference parameters, you could run, for instance: <br>
+> **python test.py -p2 image_testing/cow.jpg** <br>
+
+Here is the visualization with default parameter: 
+
+![image](https://github.com/user-attachments/assets/1e6be439-c9b2-4941-b247-89959ec0e10c)
+
+
 # EXPERIMENTS
 I run the model in a machine named <span style="background-color: red;">NVIDIA GeForce GTX 1650 Ti</span>. The validation (showed in a picture below) was trained in 5th epoch (over 100 epochs) due to the device limitation. Thus, the accuracy could be improved more. 
 
