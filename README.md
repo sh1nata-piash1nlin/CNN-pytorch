@@ -23,7 +23,7 @@ If you want to test a model with default parameters, you could run:
 If you want to test a model  in images_testing file with your preference parameters, you could run, for instance: <br>
 > **python test.py -p2 image_testing/cow.jpg** <br>
 
-Here is the visualization with default parameter: 
+Here is the visualization with default parameter after training 1st epoch: 
 
 ![image](https://github.com/user-attachments/assets/1e6be439-c9b2-4941-b247-89959ec0e10c)
 
