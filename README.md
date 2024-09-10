@@ -1,4 +1,4 @@
-# CNN
+# CNN-pytorch
 CNN for image classification (single object) 
 
 # DATASET 
